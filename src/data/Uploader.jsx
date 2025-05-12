@@ -136,7 +136,7 @@ export default function Uploader() {
     >
       <h3>DEV AREA</h3>
 
-      <Button
+      {/* <Button
         onClick={uploadAll}
         // To prevent accidental clicks. Remove to run once!
         disabled={isLoading}
@@ -148,7 +148,7 @@ export default function Uploader() {
       <p>
         <em>(Cabin images need to be uploaded manually)</em>
       </p>
-      <hr />
+      <hr /> */}
       <Button onClick={uploadBookings} disabled={isLoading}>
         Upload CURRENT bookings
       </Button>
