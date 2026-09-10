@@ -272,7 +272,7 @@ export const bookings = [
     startDate: fromToday(0),
     endDate: fromToday(5),
     cabinId: 8,
-    guestId: 23,
+    guestId: 31,
     hasBreakfast: true,
     observations:
       'I am celebrating my anniversary, can you arrange for any special amenities or decorations?',
