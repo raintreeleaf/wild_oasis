@@ -21,7 +21,7 @@ import { DarkModeProvider } from "./context/DarkModeContext";
 const queryClient = new QueryClient({
   defaultOptions: { queries: { staleTime: 0 } },
 });
-
+// Remember to test values for countryFlag. It might result in null values.
 function App() {
   return (
     <DarkModeProvider>
