@@ -9,10 +9,10 @@ import { useLogin } from "./useLogin";
 // import { login } from "../../services/apiAuth";
 
 function LoginForm() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("testuser@example.com");
+  const [password, setPassword] = useState("testuser");
   const { login, isLoading } = useLogin();
-
+// Remove the initial value from state before production.
   function handleSubmit(e) {
     e.preventDefault();
     if (!email || !password) return;
